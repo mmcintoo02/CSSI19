@@ -1,0 +1,19 @@
+h1{
+  color: red;
+  font-size: 5em;
+  font-family: monospace;
+}
+
+h2{
+  color: blue;
+  font-size: 4em;
+  font-family: serif;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bolder;
+}
+ul{
+  list-style-image: url(https://ak9.picdn.net/shutterstock/videos/3543239/thumb/1.jpg)
+}
