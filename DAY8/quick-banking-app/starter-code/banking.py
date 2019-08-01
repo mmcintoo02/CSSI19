@@ -31,6 +31,7 @@ class BankAccount(object):
         else:
             self.balance = self.balance - balance
 
+
     def deposit(self,balance): 
         if balance < 0:
             print "canot deposit negative amount"
