@@ -14,45 +14,38 @@
  * limitations under the License.
  */
 
-body {
-  margin: 0px;
+
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: 10px;
 }
 
-#header {
-  color: white;
-  background-color: #4a75e6;
-  font-size: 20px;
-  height: 200px;
-  margin: 0px;
-  padding-top: 3%;
-  text-align: center;
-  width: 100%;
+.active{
+  background-color: yellow;
 }
 
-#links {
-  background-color: #Febc1f;
-  height: 50px;
-  text-align: center;
-  border-width: 20px;
-  border-color: rgb(59, 58, 59);
-  border-style: ridge;
- 
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#box1{
+  background-color: red;
+}
+#box2{
+  background-color: pink;
+}
+#box3{
+  background-color: orange;
+}
+#box6{
+  background-color: purple;
 }
 
-.link {
-  color: grey;
-  display: inline-block;
-  font-weight: bold;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
+.rectangle{
+  height: 400px;
+  width: 100px;
+  background-color: tomato;
 }
-
-#info{
-  background-color:beige;
-}
-
-h4{
-
-}
-

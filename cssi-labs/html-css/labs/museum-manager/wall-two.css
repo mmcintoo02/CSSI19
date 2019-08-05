@@ -18,41 +18,18 @@ body {
   margin: 0px;
 }
 
-#header {
-  color: white;
-  background-color: #4a75e6;
-  font-size: 20px;
-  height: 200px;
-  margin: 0px;
-  padding-top: 3%;
-  text-align: center;
-  width: 100%;
+#row1 {
+  display: /* insert the necessery property */;
+  height: 100px;
+}
+/* Style your second row below */
+
+.pic {
+  /* Insert the general styling that will apply to ALL images */
 }
 
-#links {
-  background-color: #Febc1f;
-  height: 50px;
-  text-align: center;
-  border-width: 20px;
-  border-color: rgb(59, 58, 59);
-  border-style: ridge;
- 
+#m1 {
+  flex: /* Finish the flex property for this image */;
 }
 
-.link {
-  color: grey;
-  display: inline-block;
-  font-weight: bold;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-}
-
-#info{
-  background-color:beige;
-}
-
-h4{
-
-}
-
+/* Insert the styling for the remaining images below */

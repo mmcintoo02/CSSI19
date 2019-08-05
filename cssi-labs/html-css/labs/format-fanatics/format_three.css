@@ -14,45 +14,6 @@
  * limitations under the License.
  */
 
-body {
-  margin: 0px;
+.container {
+  grid-template-columns: /*think about using repeat and minmax here*/
 }
-
-#header {
-  color: white;
-  background-color: #4a75e6;
-  font-size: 20px;
-  height: 200px;
-  margin: 0px;
-  padding-top: 3%;
-  text-align: center;
-  width: 100%;
-}
-
-#links {
-  background-color: #Febc1f;
-  height: 50px;
-  text-align: center;
-  border-width: 20px;
-  border-color: rgb(59, 58, 59);
-  border-style: ridge;
- 
-}
-
-.link {
-  color: grey;
-  display: inline-block;
-  font-weight: bold;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-}
-
-#info{
-  background-color:beige;
-}
-
-h4{
-
-}
-

@@ -14,45 +14,24 @@
  * limitations under the License.
  */
 
+/* General Styling */
 body {
-  margin: 0px;
+  margin: 0;
 }
 
-#header {
-  color: white;
-  background-color: #4a75e6;
-  font-size: 20px;
-  height: 200px;
-  margin: 0px;
-  padding-top: 3%;
-  text-align: center;
-  width: 100%;
+.pic {
+  height: 100%;
 }
 
-#links {
-  background-color: #Febc1f;
-  height: 50px;
-  text-align: center;
-  border-width: 20px;
-  border-color: rgb(59, 58, 59);
-  border-style: ridge;
- 
+/* CSS flex-box specific styling */
+#row1 {
+  display: flex;
+  height: 100px;
+  /*justify-content: ;*/
 }
 
-.link {
-  color: grey;
-  display: inline-block;
-  font-weight: bold;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
+#vg2 {
+  flex:0 0 auto;
 }
 
-#info{
-  background-color:beige;
-}
-
-h4{
-
-}
-
+/* Insert the styling for the remaining paintings below */

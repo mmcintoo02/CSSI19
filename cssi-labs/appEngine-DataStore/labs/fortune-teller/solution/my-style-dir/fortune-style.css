@@ -14,45 +14,34 @@
  * limitations under the License.
  */
 
-body {
-  margin: 0px;
+body{
+  background-color: darkslateblue;
+  margin: 10px;
 }
 
-#header {
+h1 {
   color: white;
-  background-color: #4a75e6;
-  font-size: 20px;
-  height: 200px;
-  margin: 0px;
-  padding-top: 3%;
-  text-align: center;
-  width: 100%;
-}
-
-#links {
-  background-color: #Febc1f;
-  height: 50px;
-  text-align: center;
-  border-width: 20px;
-  border-color: rgb(59, 58, 59);
-  border-style: ridge;
- 
-}
-
-.link {
-  color: grey;
   display: inline-block;
+}
+
+img{
+  display: inline-block;
+}
+
+
+.main{
+  border: solid white 2px;
+  padding: 10px;
+}
+
+#star-img{
+    display: inline-block;
+    width: 50%;
+}
+
+#fortune{
+  font-size: 14px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   font-weight: bold;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
+  text-align: center;
 }
-
-#info{
-  background-color:beige;
-}
-
-h4{
-
-}
-
